@@ -1,5 +1,5 @@
 payload:
-  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN,baidu.com
   #- DOMAIN-KEYWORD,google
   #- DOMAIN,ad.com
   #- SRC-IP-CIDR,192.168.1.201/32
