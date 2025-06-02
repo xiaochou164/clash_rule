@@ -1,5 +1,5 @@
 payload:
   # > private service
   # - USER-AGENT,Music*
-  - DOMAIN-SUFFIX,alist.sundays.ink
+  - DOMAIN-SUFFIX,status.sundays.ink
 #  - DOMAIN,aod.itunes.apple.com
