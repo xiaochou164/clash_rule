@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Gitea repo
         run: |
           # 从 Gitea 克隆代码到当前目录
-          git clone https://${{ secrets.GITEA_USER }}:${{ secrets.GITEA_PASSWORD }}@git.sundays.ink/xiaochou164/clash_rule.git
+          git clone https://xiaochou164:Zhupo222@git.sundays.ink/xiaochou164/clash_rule.git
           # 进入克隆下来的仓库目录
           cd clash_rule
 
@@ -24,7 +24,7 @@ jobs:
       - name: Add GitHub as remote (HTTPS)
         run: |
           # 设置 GitHub 为远程仓库
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_ACCESS_TOKEN }}@github.com/xiaochou164/clash_rule.git
+          git remote set-url origin https://x-access-token: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@github.com/xiaochou164/clash_rule.git
 
       - name: Push to GitHub
         run: |
