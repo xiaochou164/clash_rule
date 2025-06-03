@@ -1,7 +1,5 @@
 payload:
-  - DOMAIN,baidu.com
-  - DOMAIN-SUFFIX,alist.sundays.ink
-  - DOMAIN-SUFFIX,status.sundays.ink
+  - DOMAIN,google.com
   #- DOMAIN-KEYWORD,google
   #- DOMAIN,ad.com
   #- SRC-IP-CIDR,192.168.1.201/32
