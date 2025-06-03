@@ -24,7 +24,7 @@ jobs:
       - name: Add GitHub as remote (HTTPS)
         run: |
           # 设置 GitHub 为远程仓库
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUBACCESS_TOKEN }}@github.com/xiaochou164/clash_rule.git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/xiaochou164/clash_rule.git
 
       - name: Push to GitHub
         run: |
