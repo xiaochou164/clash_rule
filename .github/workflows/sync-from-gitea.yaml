@@ -13,6 +13,7 @@ jobs:
         run: |
           # 从 Gitea 克隆代码到当前目录
           git clone https://${{ secrets.GITEA_USER }}:${{ secrets.GITEA_PASSWORD }}@git.sundays.ink/xiaochou164/clash_rule.git
+          # 进入克隆下来的仓库目录
           cd clash_rule
 
       - name: Set up Git
