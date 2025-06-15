@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,alist.sundays.ink
   - DOMAIN-SUFFIX,status.sundays.ink
   - PROCESS-NAME,tailscaled
+  - DOMAIN-SUFFIX,*.oraclecloud.com
   #- DOMAIN-KEYWORD,google
   #- DOMAIN,ad.com
   #- SRC-IP-CIDR,192.168.1.201/32
