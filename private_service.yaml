@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,status.sundays.ink
   - PROCESS-NAME,tailscaled
   - DOMAIN-SUFFIX,oraclecloud.com
+  - DOMAIN-SUFFIX,docker.1panel.live
   #- DOMAIN-KEYWORD,google
   #- DOMAIN,ad.com
   #- SRC-IP-CIDR,192.168.1.201/32
